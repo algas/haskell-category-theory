@@ -1,0 +1,20 @@
+name:                haskell-category-theory
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/algas/haskell-category-theory#readme
+license:             BSD3
+author:              Masahiro Yamauchi
+maintainer:          sgt.yamauchi@gmail.com
+copyright:           2020 Masahiro Yamauchi
+category:            Development
+extra-source-files:
+  - README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+
+executables:
+  haskell-category-theory:
+    source-dirs:      src
+    main:             Main.hs

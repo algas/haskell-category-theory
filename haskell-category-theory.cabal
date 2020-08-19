@@ -1,0 +1,28 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.34.2.
+--
+-- see: https://github.com/sol/hpack
+
+name:           haskell-category-theory
+version:        0.1.0.0
+category:       Development
+homepage:       https://github.com/algas/haskell-category-theory#readme
+author:         Masahiro Yamauchi
+maintainer:     sgt.yamauchi@gmail.com
+copyright:      2020 Masahiro Yamauchi
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+executable haskell-category-theory
+  main-is: Main.hs
+  other-modules:
+      Paths_haskell_category_theory
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
