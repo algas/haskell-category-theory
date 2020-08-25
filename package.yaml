@@ -18,3 +18,10 @@ executables:
   haskell-category-theory:
     source-dirs:      src
     main:             Main.hs
+
+tests:
+  doctest:
+    source-dirs: src
+    main: doctests.hs
+    dependencies:
+      - doctest
