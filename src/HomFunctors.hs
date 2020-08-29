@@ -22,4 +22,4 @@ instance Contra (Moh b) where
 newtype Riap b a = Riap { getPair :: (a,b) }
 
 instance Functor (Riap b) where
-    fmap f (Riap (x,y)) = Riap (f (x,y))
+    fmap f (Riap (x,y)) = Riap (f x,y)
