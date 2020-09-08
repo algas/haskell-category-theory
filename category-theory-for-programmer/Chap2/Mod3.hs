@@ -34,3 +34,43 @@ mod3 (Succ (Succ (Succ m))) = mod3 m
 -- 2
 -- >>> fromNat0 . mod3 $ toNat0 6
 -- 0
+
+round' :: Double -> Int
+round' m
+    | m > 0 && m - fromIntegral (floor m) >= 0.5 = 1 + floor m
+    | m >= 0 = floor m
+    | m - fromIntegral (floor m) > 0.5 = 1 + floor m
+    | otherwise = floor m
+
+-- | round'
+-- >>> round' (-3.6)
+-- -4
+-- >>> round' (-3.5)
+-- -4
+-- >>> round' (-3.4)
+-- -3
+-- >>> round' 3.6
+-- 4
+-- >>> round' 3.5
+-- 4
+-- >>> round' 3.4
+-- 3
+
+abs' :: Int -> Nat0
+abs' m
+    | m > 0 = toNat0 m
+    | otherwise = toNat0 (-m)
+
+-- | abs'
+-- >>> abs' 2
+-- Succ (Succ Zero)
+-- >>> abs' (-2)
+-- Succ (Succ Zero)
+
+distance = abs' . round'
+
+-- | distance
+-- >>> distance (-3.4)
+-- Succ (Succ (Succ Zero))
+-- >>> distance (-3.5)
+-- Succ (Succ (Succ (Succ Zero)))
