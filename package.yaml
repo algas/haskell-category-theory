@@ -15,13 +15,22 @@ dependencies:
   - base >= 4.7 && < 5
 
 executables:
-  haskell-category-theory:
+  category-theory-training:
     source-dirs:      src
     main:             Main.hs
 
+  category-theory-for-programmer:
+    source-dirs:      category-theory-for-programmer
+    main:             Main.hs
+
 tests:
-  doctest:
+  doctest-category-theory-training:
     source-dirs: src
+    main: doctests.hs
+    dependencies:
+      - doctest
+  doctest-category-theory-for-programmer:
+    source-dirs: category-theory-for-programmer
     main: doctests.hs
     dependencies:
       - doctest

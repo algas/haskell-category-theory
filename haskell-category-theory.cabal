@@ -17,9 +17,29 @@ build-type:     Simple
 extra-source-files:
     README.md
 
-executable haskell-category-theory
+executable category-theory-for-programmer
   main-is: Main.hs
   other-modules:
+      Chap2.Identity
+      Chap2.Mod3
+      Chap2.MorphingA
+      Chap2.Morphism
+      Chap2.Times2
+      Paths_haskell_category_theory
+  hs-source-dirs:
+      category-theory-for-programmer
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
+
+executable category-theory-training
+  main-is: Main.hs
+  other-modules:
+      Coproduct
+      HomFunctors
+      MaybeEither
+      Product
+      SafeHead
       Tree
       Paths_haskell_category_theory
   hs-source-dirs:
@@ -28,11 +48,34 @@ executable haskell-category-theory
       base >=4.7 && <5
   default-language: Haskell2010
 
-test-suite doctest
+test-suite doctest-category-theory-for-programmer
   type: exitcode-stdio-1.0
   main-is: doctests.hs
   other-modules:
+      Chap2.Identity
+      Chap2.Mod3
+      Chap2.MorphingA
+      Chap2.Morphism
+      Chap2.Times2
       Main
+      Paths_haskell_category_theory
+  hs-source-dirs:
+      category-theory-for-programmer
+  build-depends:
+      base >=4.7 && <5
+    , doctest
+  default-language: Haskell2010
+
+test-suite doctest-category-theory-training
+  type: exitcode-stdio-1.0
+  main-is: doctests.hs
+  other-modules:
+      Coproduct
+      HomFunctors
+      Main
+      MaybeEither
+      Product
+      SafeHead
       Tree
       Paths_haskell_category_theory
   hs-source-dirs:
