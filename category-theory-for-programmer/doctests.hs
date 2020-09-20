@@ -7,4 +7,5 @@ main = doctest
     , "category-theory-for-programmer/Chap2/Morphism.hs"
     , "category-theory-for-programmer/Chap2/MorphingA.hs"
     , "category-theory-for-programmer/Chap2/Identity.hs"
+    , "category-theory-for-programmer/Chap6/FunctorProof.hs"
     ]

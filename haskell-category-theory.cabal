@@ -25,6 +25,7 @@ executable category-theory-for-programmer
       Chap2.MorphingA
       Chap2.Morphism
       Chap2.Times2
+      Chap6.FunctorProof
       Paths_haskell_category_theory
   hs-source-dirs:
       category-theory-for-programmer
@@ -57,6 +58,7 @@ test-suite doctest-category-theory-for-programmer
       Chap2.MorphingA
       Chap2.Morphism
       Chap2.Times2
+      Chap6.FunctorProof
       Main
       Paths_haskell_category_theory
   hs-source-dirs:
