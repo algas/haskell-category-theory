@@ -27,6 +27,7 @@ executable category-theory-for-programmer
       Chap2.Times2
       Chap6.FunctorCompose
       Chap6.FunctorProof
+      Chap6.MaybeEither
       Paths_haskell_category_theory
   hs-source-dirs:
       category-theory-for-programmer
@@ -61,6 +62,7 @@ test-suite doctest-category-theory-for-programmer
       Chap2.Times2
       Chap6.FunctorCompose
       Chap6.FunctorProof
+      Chap6.MaybeEither
       Main
       Paths_haskell_category_theory
   hs-source-dirs:
