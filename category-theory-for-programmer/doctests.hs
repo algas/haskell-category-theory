@@ -8,4 +8,5 @@ main = doctest
     , "category-theory-for-programmer/Chap2/MorphingA.hs"
     , "category-theory-for-programmer/Chap2/Identity.hs"
     , "category-theory-for-programmer/Chap6/FunctorProof.hs"
+    , "category-theory-for-programmer/Chap6/FunctorCompose.hs"
     ]
