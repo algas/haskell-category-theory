@@ -11,4 +11,5 @@ main = doctest
     , "category-theory-for-programmer/Chap6/FunctorCompose.hs"
     , "category-theory-for-programmer/Chap6/MaybeEither.hs"
     , "category-theory-for-programmer/Chap6/FunctorReader.hs"
+    , "category-theory-for-programmer/Chap6/Contravariant.hs"
     ]

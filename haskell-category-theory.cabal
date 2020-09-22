@@ -25,6 +25,7 @@ executable category-theory-for-programmer
       Chap2.MorphingA
       Chap2.Morphism
       Chap2.Times2
+      Chap6.Contravariant
       Chap6.FunctorCompose
       Chap6.FunctorProof
       Chap6.FunctorReader
@@ -61,6 +62,7 @@ test-suite doctest-category-theory-for-programmer
       Chap2.MorphingA
       Chap2.Morphism
       Chap2.Times2
+      Chap6.Contravariant
       Chap6.FunctorCompose
       Chap6.FunctorProof
       Chap6.FunctorReader
