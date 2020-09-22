@@ -30,6 +30,7 @@ executable category-theory-for-programmer
       Chap6.FunctorProof
       Chap6.FunctorReader
       Chap6.MaybeEither
+      Chap6.Profunctor
       Paths_haskell_category_theory
   hs-source-dirs:
       category-theory-for-programmer
@@ -67,6 +68,7 @@ test-suite doctest-category-theory-for-programmer
       Chap6.FunctorProof
       Chap6.FunctorReader
       Chap6.MaybeEither
+      Chap6.Profunctor
       Main
       Paths_haskell_category_theory
   hs-source-dirs:
