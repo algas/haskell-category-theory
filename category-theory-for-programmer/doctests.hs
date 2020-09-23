@@ -13,4 +13,5 @@ main = doctest
     , "category-theory-for-programmer/Chap6/FunctorReader.hs"
     , "category-theory-for-programmer/Chap6/Contravariant.hs"
     , "category-theory-for-programmer/Chap6/Profunctor.hs"
+    , "category-theory-for-programmer/Chap7/FunctionalObject.hs"
     ]
