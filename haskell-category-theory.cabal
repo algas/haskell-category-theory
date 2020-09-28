@@ -32,6 +32,7 @@ executable category-theory-for-programmer
       Chap6.MaybeEither
       Chap6.Profunctor
       Chap7.FunctionalObject
+      Chap7.TypeTheory
       Paths_haskell_category_theory
   hs-source-dirs:
       category-theory-for-programmer
@@ -71,6 +72,7 @@ test-suite doctest-category-theory-for-programmer
       Chap6.MaybeEither
       Chap6.Profunctor
       Chap7.FunctionalObject
+      Chap7.TypeTheory
       Main
       Paths_haskell_category_theory
   hs-source-dirs:
