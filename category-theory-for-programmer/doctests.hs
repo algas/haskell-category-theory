@@ -15,4 +15,7 @@ main = doctest
     , "category-theory-for-programmer/Chap6/Profunctor.hs"
     , "category-theory-for-programmer/Chap7/FunctionalObject.hs"
     , "category-theory-for-programmer/Chap7/TypeTheory.hs"
+    , "category-theory-for-programmer/Chap10/AltProgram.hs"
+    , "category-theory-for-programmer/Chap10/Program.hs"
+    , "category-theory-for-programmer/Chap10/Kleisli.hs"
     ]

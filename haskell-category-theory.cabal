@@ -20,6 +20,9 @@ extra-source-files:
 executable category-theory-for-programmer
   main-is: Main.hs
   other-modules:
+      Chap10.AltProgram
+      Chap10.Kleisli
+      Chap10.Program
       Chap2.Identity
       Chap2.Mod3
       Chap2.MorphingA
@@ -60,6 +63,9 @@ test-suite doctest-category-theory-for-programmer
   type: exitcode-stdio-1.0
   main-is: doctests.hs
   other-modules:
+      Chap10.AltProgram
+      Chap10.Kleisli
+      Chap10.Program
       Chap2.Identity
       Chap2.Mod3
       Chap2.MorphingA
